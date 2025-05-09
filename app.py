@@ -67,7 +67,7 @@ def handle_message(event):
             )
         )
 
-@app.route('test1', methods=['GET'])
+@app.route('/test1', methods=['GET'])
 def test1():
     return 'test1'
 
